@@ -1,0 +1,23 @@
+organization = "TS"
+environment  = "Staging"
+application  = "ADO"
+tier         = "Web"
+tagging = {
+  CreatedBy  = "Raj"
+  CostCenter = 123
+  Org        = "TS"
+}
+rgname           = "RG24"
+location         = "East Us"
+pipname          = "Pip1"
+nsg              = "NSG"
+vnetname         = "Vnet"
+address_space    = ["10.0.0.0/16"]
+subnetname       = "subnet1"
+address_prefixes = ["10.0.0.0/24"]
+nicname          = "NIC"
+VMname           = "VM1"
+vm_size          = "Standard_DS1_v2"
+computer_name    = "vm1"
+admin_username   = "testadmin"
+admin_password   = "Password1234!"
